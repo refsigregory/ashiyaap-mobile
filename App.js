@@ -1,13 +1,12 @@
 /**
- * Base Code & Asset dari:
- * Create by Refsi Sangkay / refsisangkay.github.io
+ * Base Code & Asset dari: https://github.com/mirukusheki/ashiyaap
+ * Create by Refsi Sangkay / https://refsisangkay.github.io/
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Alert, Text, View} from 'react-native';
-import Image from 'react-native-remote-svg';
+import {Platform, StyleSheet, Image, Alert, Text, View} from 'react-native';
 import Audio from 'react-native-sound';
-import logo from "./yes.svg";
+import logo from "./yes.png";
 
 type Props = {};
 export default class App extends Component<Props> {
@@ -24,7 +23,7 @@ export default class App extends Component<Props> {
 
     // Enable playback in silence mode
     Audio.setCategory('Playback');
-    // Load the sound file 'whoosh.mp3' from the app bundle
+    // Load the sound file
     // See notes below about preloading sounds within initialization code below.
     var audio = new Audio('ashiap.mp3', Audio.MAIN_BUNDLE, (error) => {
       if (error) {
