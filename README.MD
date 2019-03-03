@@ -7,7 +7,7 @@ Original by Miruku Sheki
 ASHIAAAAPPP.exe adalah sebuah project iseng buatan Miruku Sheki menggunakan bahasa program ReactJS. 
 Project ini awalnya berbasis web namun di porting menjadi versi Mobile dengan ReactNative oleh Refsi Sangkay karena iseng juga.
 
-Android Version: https://github.com/refsisangkay/ashiyaap-mobile/android/app/build/outputs/apk/release/app-release.apk
+Android Version: https://github.com/refsisangkay/ashiyaap-mobile/apk/ashiyaap-v1.0.apk
 
 IOS Version: coming soon
 
